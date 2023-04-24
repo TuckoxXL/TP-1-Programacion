@@ -2,22 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class bot : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public humano humanoScript;
+
+  
     void Start()
     {
+        humanoScript = GetComponent<humano>();
         
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Saludar()
     {
-        
-    }
-
-    public void saludar()
-    {
-
+       
     }
 }
