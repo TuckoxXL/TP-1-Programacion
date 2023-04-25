@@ -9,8 +9,6 @@ public class humano : MonoBehaviour
     public float jumforce;
 
    
-    // Start is called before the first frame update
-   
     public string nombre;
     public string Nombre
     {
@@ -20,10 +18,11 @@ public class humano : MonoBehaviour
 
     void Start()
     {
-        
+        Nombre = "Roberto";
+        Debug.Log(nombre);
     }
 
-    // Update is called once per frame
+  
     void Update()
     {
         float horizontalforce = Input.GetAxis("Horizontal") * Forcemultiplier;

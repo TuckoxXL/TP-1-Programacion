@@ -262,6 +262,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5135508577256122251, guid: 178035926703c374e91d52135aade2e8, type: 3}
+      propertyPath: nuevoNombre
+      value: riquelme
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 178035926703c374e91d52135aade2e8, type: 3}
 --- !u!1 &1842743920
@@ -279,7 +283,7 @@ GameObject:
   - component: {fileID: 1842743923}
   m_Layer: 0
   m_Name: Capsule
-  m_TagString: Untagged
+  m_TagString: humano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -421,6 +425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   humanoScript: {fileID: 0}
+  nuevoNombre: diego
 --- !u!1 &1989551107
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,6 +592,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4992242028534422298, guid: 178035926703c374e91d52135aade2e8, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5135508577256122251, guid: 178035926703c374e91d52135aade2e8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5135508577256122251, guid: 178035926703c374e91d52135aade2e8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 178035926703c374e91d52135aade2e8, type: 3}
@@ -644,6 +657,10 @@ PrefabInstance:
     - target: {fileID: 3086539167140148735, guid: 178035926703c374e91d52135aade2e8, type: 3}
       propertyPath: m_Name
       value: Circle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5135508577256122251, guid: 178035926703c374e91d52135aade2e8, type: 3}
+      propertyPath: nuevoNombre
+      value: pele
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 178035926703c374e91d52135aade2e8, type: 3}
