@@ -17,14 +17,16 @@ public class bot : MonoBehaviour
 
     public void Saludar()
     {
+        Debug.Log("hola " + humanoScript.nombre + " ahora sos " + nuevoNombre);
         humanoScript.Nombre = nuevoNombre;
-        Debug.Log(humanoScript.nombre);
+        
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-       if (collision.CompareTag("botFulvo"))
-        {
+       if (collision.CompareTag("humano"))
+        {           
             Saludar();
         }
     }

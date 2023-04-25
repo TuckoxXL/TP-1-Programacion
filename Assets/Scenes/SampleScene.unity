@@ -220,11 +220,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3086539167140148733, guid: 178035926703c374e91d52135aade2e8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.55
+      value: -9.36
       objectReference: {fileID: 0}
     - target: {fileID: 3086539167140148733, guid: 178035926703c374e91d52135aade2e8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.5
+      value: -3.58
       objectReference: {fileID: 0}
     - target: {fileID: 3086539167140148733, guid: 178035926703c374e91d52135aade2e8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -264,7 +264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5135508577256122251, guid: 178035926703c374e91d52135aade2e8, type: 3}
       propertyPath: nuevoNombre
-      value: riquelme
+      value: Riquelme
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 178035926703c374e91d52135aade2e8, type: 3}
@@ -425,7 +425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   humanoScript: {fileID: 0}
-  nuevoNombre: diego
+  nuevoNombre: Diego
 --- !u!1 &1989551107
 GameObject:
   m_ObjectHideFlags: 0
@@ -660,7 +660,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5135508577256122251, guid: 178035926703c374e91d52135aade2e8, type: 3}
       propertyPath: nuevoNombre
-      value: pele
+      value: Pele
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 178035926703c374e91d52135aade2e8, type: 3}
